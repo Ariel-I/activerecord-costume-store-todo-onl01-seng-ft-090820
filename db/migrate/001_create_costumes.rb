@@ -4,6 +4,10 @@ class CreateCostumes < ActiveRecord::Migrations[5.2]
     create_table :costumes do |t|
       t.string :name 
       t.integer :price 
+      t.string :size 
+      t.float :image_url
+      t.?? :creta_at 
+      t.?? :update_at 
   
 end 
 
