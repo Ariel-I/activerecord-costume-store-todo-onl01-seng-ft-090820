@@ -8,6 +8,7 @@ class CreateCostumes < ActiveRecord::Migrations[5.2]
       t.text :image_url
       t.datetime :create_at 
       t.datetime :update_at 
+    end 
   end 
   
 end 
