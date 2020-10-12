@@ -1,3 +1,12 @@
+class CreateCostumes < ActiveRecord::Migrations[5.2]
+  
+  def change
+    create_table
+  
+end 
+
+
+
 # Create a class and inherit from ActiveRecord::Migration
 
 # By convention, the class name should match the part of the
